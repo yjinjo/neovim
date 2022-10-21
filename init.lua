@@ -5,4 +5,5 @@ require("eecs.core.colorscheme")
 require("eecs.plugins.comment")
 require("eecs.plugins.nvim-tree")
 require("eecs.plugins.lualine")
+require("eecs.plugins.telescope")
 

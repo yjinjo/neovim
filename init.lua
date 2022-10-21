@@ -11,4 +11,5 @@ require("eecs.plugins.lsp.mason")
 require("eecs.plugins.lsp.lspsaga")
 require("eecs.plugins.lsp.lspconfig")
 require("eecs.plugins.lsp.null-ls")
-
+require("eecs.plugins.autopairs")
+require("eecs.plugins.treesitter")

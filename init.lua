@@ -10,4 +10,5 @@ require("eecs.plugins.nvim-cmp")
 require("eecs.plugins.lsp.mason")
 require("eecs.plugins.lsp.lspsaga")
 require("eecs.plugins.lsp.lspconfig")
+require("eecs.plugins.lsp.null-ls")
 

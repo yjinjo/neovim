@@ -22,6 +22,7 @@ mason.setup()
 mason_lspconfig.setup({
 	-- list of servers for mason to install
 	ensure_installed = {
+		"jedi_language_server",
 		"tsserver",
 		"html",
 		"cssls",
@@ -35,6 +36,7 @@ mason_lspconfig.setup({
 mason_null_ls.setup({
 	-- list of formatters & linters for mason to install
 	ensure_installed = {
+		"black", -- python formatter
 		"prettier", -- ts/js formatter
 		"stylua", -- lua formatter
 		"eslint_d", -- ts/js linter
@@ -42,4 +44,3 @@ mason_null_ls.setup({
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true,
 })
-

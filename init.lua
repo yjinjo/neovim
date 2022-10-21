@@ -6,4 +6,5 @@ require("eecs.plugins.comment")
 require("eecs.plugins.nvim-tree")
 require("eecs.plugins.lualine")
 require("eecs.plugins.telescope")
+require("eecs.plugins.nvim-cmp")
 

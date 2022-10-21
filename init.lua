@@ -7,4 +7,7 @@ require("eecs.plugins.nvim-tree")
 require("eecs.plugins.lualine")
 require("eecs.plugins.telescope")
 require("eecs.plugins.nvim-cmp")
+require("eecs.plugins.lsp.mason")
+require("eecs.plugins.lsp.lspsaga")
+require("eecs.plugins.lsp.lspconfig")
 

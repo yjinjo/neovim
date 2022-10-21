@@ -1,8 +1,8 @@
 local opt = vim.opt -- for conciseness
 
 -- line numbers
--- opt.relativenumber = true -- show relative line numbers
--- opt.number = true -- shows absolute line number on cursor line (when relative number is on)
+opt.relativenumber = true -- show relative line numbers
+opt.number = true -- shows absolute line number on cursor line (when relative number is on)
 
 -- tabs & indentation
 opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
@@ -39,4 +39,3 @@ opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
 
 opt.iskeyword:append("-") -- consider string-string as whole word
-

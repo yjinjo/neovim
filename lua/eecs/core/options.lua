@@ -1,5 +1,14 @@
 local opt = vim.opt -- for conciseness
 
+-- https://youtu.be/3mCD4oBC4Xg?t=508
+opt.backup = false -- creates a backup file
+opt.cmdheight = 2 -- more space in the neovim command line
+opt.fileencoding = "utf-8" -- the encoding written to a file
+opt.hlsearch = true -- highlight all matches on previous search
+opt.smartindent = true -- make indenting smarter again
+opt.undofile = true -- enable persistent undo
+opt.updatetime = 300 -- faster completion (4000ms default)
+
 -- line numbers
 opt.relativenumber = true -- show relative line numbers
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
